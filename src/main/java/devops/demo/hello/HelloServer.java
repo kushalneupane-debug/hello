@@ -54,7 +54,7 @@ public class HelloServer {
       		+ "    <p>This page is generated to verify the build and deployment pipeline.</p>\r\n"
       		+ "    \r\n"
       		+ "    <div class=\"footer\">\r\n"
-      		+ "        © DevOps Demo | Computer Science - Kushal Neupane\r\n"
+      		+ "        © DevOps Demo | Computer Science - Bo Guo\r\n"
       		+ "    </div>\r\n"
       		+ "</body>\r\n"
       		+ "</html>";
