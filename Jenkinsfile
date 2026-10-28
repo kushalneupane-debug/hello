@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        PATH+DOCKER    = "/usr/local/bin:/opt/homebrew/bin:/Applications/Docker.app/Contents/Resources/bin"
+        PATH           = "/usr/local/bin:/opt/homebrew/bin:/Applications/Docker.app/Contents/Resources/bin:${env.PATH}"
         DOCKERHUB_REPO = 'neup2666/hello'
         IMAGE_TAG      = new Date().format('yyyyMMdd-HHmm')
         DOCKERHUB_CRED = 'dockerhub-creds'
